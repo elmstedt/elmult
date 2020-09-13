@@ -1,0 +1,2 @@
+useDynLib(elemult, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")

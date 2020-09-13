@@ -1,0 +1,13 @@
+PKG_FFLAGS = $(SHLIB_OPENMP_FFLAGS)
+PKG_LIBS = $(SHLIB_OPENMP_CFLAGS)
+
+C_OBJS = emc.o
+FT_OBJS = emf.o
+
+all:
+	@$(MAKE) $(SHLIB)
+	@rm -f *.mod *.o
+
+$(SHLIB): $(FT_OBJS) $(C_OBJS)
+
+emc.o: emf.o

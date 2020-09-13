@@ -1,0 +1,14 @@
+Package: elmult
+Type: Package
+Title: Fortran Element-Wise Matrix Multiplication with OMP
+Version: 1.0.0
+Date: 2020-09-13
+Authors@R:
+    c(person(given = "Jake",
+             family = "Elmstedt",
+             role = c("aut", "cre"),
+             email = "jake.elmstedt@gmail.com"))
+Description: Fortran Element-Wise Matrix Multiplication with OMP for https://community.rstudio.com/t/quicker-elementwise-matrix-multiplications/ 
+License: MIT License
+NeedsCompilation: yes
+Imports: OpenMPController
