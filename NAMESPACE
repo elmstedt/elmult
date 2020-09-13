@@ -1,2 +1,2 @@
-useDynLib(elemult, .registration=TRUE)
+useDynLib(elmult, .registration=TRUE)
 exportPattern("^[[:alpha:]]+")
