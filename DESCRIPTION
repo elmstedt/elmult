@@ -11,4 +11,5 @@ Authors@R:
 Description: Fortran Element-Wise Matrix Multiplication with OMP for https://community.rstudio.com/t/quicker-elementwise-matrix-multiplications/ 
 License: MIT License
 NeedsCompilation: yes
-Imports: OpenMPController
+Imports: OpenMPController, Rcpp (>= 1.0.5)
+LinkingTo: Rcpp
